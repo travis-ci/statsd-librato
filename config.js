@@ -7,6 +7,8 @@
 
   backends: ["statsd-librato-backend"],
 
+  deleteIdleStats: true,
+
   address: "0.0.0.0",
   port: 8125
 }
